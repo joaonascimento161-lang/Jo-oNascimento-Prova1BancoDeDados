@@ -30,9 +30,6 @@ VALUES
 (3, 'Bomba Hidráulica Piston', 'Modelo de alta pressão 200 bar', 1200.00, 15, 3),
 (4, 'Pastilha de Freio Dianteira', 'Compatível com modelos sedan 2.0', 85.00, 120, 4);
 
-INSERT INTO fornecedores(cnpj, razaoSocial, telefone, cidade)
-VALUES
-('12.345.678/0001-01', 'Metalúrgica Gerdau S.A.', '(11) 4002-8922', 'São Paulo'),
-('98.765.432/0001-99', 'Parafusos & Cia Ltda', '(41) 3333-4444', 'Curitiba'),
-('45.678.912/0001-55', 'Hidráulica Brasil Componentes', '(21) 2555-0199', 'Rio de Janeiro'),
-('11.222.333/0001-44', 'Auto Peças Mundial Distribuidora', '(31) 3888-7777', 'Belo Horizonte');
+INSERT INTO fornecedores(
+    CNPJ,razaoSocial,telefone,cidade
+)

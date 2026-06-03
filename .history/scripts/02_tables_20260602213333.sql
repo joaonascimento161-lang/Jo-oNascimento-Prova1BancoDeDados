@@ -32,7 +32,7 @@ CREATE TABLE produtos(
 );
 drop table fornecedores;
 CREATE TABLE fornecedores(
-    CNPJ CHAR(18) PRIMARY KEY,
+    CNPJ CHAR(18) AUTO_INCREMENT PRIMARY KEY,
     razaoSocial CHAR(100) NOT NULL,
     telefone CHAR(100) NOT NULL,
     cidade CHAR(100)
