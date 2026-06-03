@@ -1,0 +1,6 @@
+CREATE TABLE setor(
+idSetor INT AUTO_INCREMENT PRIMARY KEY,
+nomeSetor CHAR(100) NOT NULL,
+localSetor CHAR(100) NOT NULL
+);
+

@@ -1,0 +1,13 @@
+CREATE TABLE setor(
+idSetor INT AUTO_INCREMENT PRIMARY KEY,
+nomeSetor CHAR(100) NOT NULL,
+localSetor CHAR(100) NOT NULL
+);
+
+CREATE TABLE funcionarios(
+nomeFuncionario VARCHAR(100) ,
+CPF int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+cargoFuncionario CHAR(100),
+salarioFuncionario DECIMAL(10,2),
+dataEmissao DATE
+);
