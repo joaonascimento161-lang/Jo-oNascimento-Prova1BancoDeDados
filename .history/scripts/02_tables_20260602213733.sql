@@ -6,10 +6,10 @@ CREATE TABLE setor(
     nomeSetor CHAR(100) NOT NULL,
     localSetor CHAR(100) NOT NULL
 );
-drop table funcionarios;
+drop table 
 CREATE TABLE funcionarios(
     nomeFuncionario VARCHAR(100) ,
-    CPF CHAR(12) NOT NULL PRIMARY KEY,
+    CPF INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     cargoFuncionario CHAR(100),
     salarioFuncionario DECIMAL(10,2),
     dataEmissao DATE,

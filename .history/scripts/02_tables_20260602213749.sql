@@ -9,7 +9,7 @@ CREATE TABLE setor(
 drop table funcionarios;
 CREATE TABLE funcionarios(
     nomeFuncionario VARCHAR(100) ,
-    CPF CHAR(12) NOT NULL PRIMARY KEY,
+    CPF  NOT NULL PRIMARY KEY,
     cargoFuncionario CHAR(100),
     salarioFuncionario DECIMAL(10,2),
     dataEmissao DATE,
