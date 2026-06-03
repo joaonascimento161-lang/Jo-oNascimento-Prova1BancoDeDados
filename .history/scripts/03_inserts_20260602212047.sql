@@ -29,3 +29,5 @@ VALUES
 (2, 'Parafuso Sextavado M12', 'Aço zincado 12mm x 50mm', 1.50, 1000, 2),
 (3, 'Bomba Hidráulica Piston', 'Modelo de alta pressão 200 bar', 1200.00, 15, 3),
 (4, 'Pastilha de Freio Dianteira', 'Compatível com modelos sedan 2.0', 85.00, 120, 4);
+
+INSERT INTO
